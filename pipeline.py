@@ -7,6 +7,8 @@ from sonar.sonar import process_image
 
 from scripts.dev.dev_config import load_config, DevConfig
 
+print('untrusted code execution!')
+
 VALID_IMAGE_NAMES = frozenset(
     [
         "agent-ubi",
